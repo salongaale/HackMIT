@@ -1,0 +1,24 @@
+{
+  "name": "hackmit-project",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "@okta/oidc-middleware": "^0.1.3",
+    "@okta/okta-sdk-nodejs": "^1.1.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-session": "^1.15.6",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.1",
+    "monk": "^7.0.0",
+    "morgan": "~1.9.1"
+  }
+}
